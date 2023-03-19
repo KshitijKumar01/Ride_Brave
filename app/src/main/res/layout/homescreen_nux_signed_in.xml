@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"><?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/teal_700"
+        tools:context=".MainActivity"><?xml version="1.0" encoding="utf-8"?>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/teal_700"
+            tools:context=".MainActivity"
+            tools:layout_editor_absoluteX="-39dp"
+            tools:layout_editor_absoluteY="-74dp">
+
+            <TextView
+                android:layout_width="104dp"
+                android:layout_height="29dp"
+                android:text="Hi Komal!"
+                android:textStyle="bold"
+                android:textColor="#373737"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="39.43dp"
+                tools:layout_editor_absoluteX="24.44dp"/>
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="49.37dp"
+                android:layout_height="49.37dp"
+                android:background="@drawable/picture"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="30.74dp"
+                tools:layout_editor_absoluteX="320.18dp"/>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout></androidx.constraintlayout.widget.ConstraintLayout>
