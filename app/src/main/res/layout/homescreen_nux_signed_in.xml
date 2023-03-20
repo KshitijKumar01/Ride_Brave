@@ -100,7 +100,7 @@
     <TextView
         android:layout_width="169dp"
         android:layout_height="19dp"
-        android:font="15.94dp"
+        android:textSize="15.94sp"
         android:text="Welcome to RideBrave!"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
@@ -145,7 +145,7 @@
     <TextView
         android:layout_width="216.74dp"
         android:layout_height="35dp"
-        android:font="13.48dp"
+        android:textSize="13.48sp"
         android:text="Click on “Travel Today” to find a compamion for your train trip!"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
@@ -155,7 +155,7 @@
     <TextView
         android:layout_width="222.74dp"
         android:layout_height="39dp"
-        android:font="13.48dp"
+        android:textSize="13.48sp"
         android:text="View your requests that are accepted or pending from your end."
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -165,7 +165,7 @@
     <TextView
         android:layout_width="216.74dp"
         android:layout_height="50dp"
-        android:font="13.48dp"
+        android:textSize="13.48sp"
         android:text="You also have the option of SOS and side amenities like Hospital , etc."
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
 

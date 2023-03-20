@@ -14,10 +14,10 @@ class Screen1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.screen1)
 
-        findViewById<Button>(R.id.b_screen1_get_start).setOnClickListener{
-            val intent = Intent(this, Screen2::class.java)
-            startActivity(intent)
-        }
+//        findViewById<Button>(R.id.b_screen1_get_start).setOnClickListener{
+//            val intent = Intent(this, Screen2::class.java)
+//            startActivity(intent)
+//        }
 
 
     }
