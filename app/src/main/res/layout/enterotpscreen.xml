@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="6.55dp"
+        android:layout_height="11.15dp"
+        android:src="@drawable/leftarrow"
+        tools:layout_editor_absoluteX="29.98dp"
+        tools:layout_editor_absoluteY="40.43dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:text="Enter OTP"
+        android:textColor="#373737"
+        android:textSize="23.52sp"
+        tools:layout_editor_absoluteX="23.43dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="72.14dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="15dp"
+        android:text="Enter the 6 digit verification code sent to +91-9876543210"
+        android:textColor="#A7A5A5"
+        android:textSize="11sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/otpbox1"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="23.43dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/otpbox2"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/otpbox3"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="143.21dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/otpbox4"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="203.42dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/otpbox5"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="263.64dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/otpbox6"
+        android:layout_width="50.63dp"
+        android:layout_height="61.65dp"
+        android:src="@drawable/rectangle_otp"
+        tools:layout_editor_absoluteX="323.85dp"
+        tools:layout_editor_absoluteY="148.47dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/verifytextimg"
+        android:layout_width="343.18dp"
+        android:layout_height="50.19dp"
+        android:src="@drawable/rectangle_verifyotp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -127,7 +127,7 @@
         tools:layout_editor_absoluteY="562dp" />
 
     <TextView
-        android:layout_width="179dp"
+        android:layout_width="99dp"
         android:layout_height="20dp"
         android:text="Add your trip"
         android:textColor="#FFFFFF"
