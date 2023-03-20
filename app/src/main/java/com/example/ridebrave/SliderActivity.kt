@@ -39,24 +39,24 @@ class SliderActivity : AppCompatActivity() {
         tvNext= findViewById(R.id.tv_next)
         dots = arrayOfNulls<TextView>(layout.size)
 
-        if (!introPreferences.isFirstTimeLaunch()) {
-            launchHomeScreen()
-            finish()
-        }
+//        if (!introPreferences.isFirstTimeLaunch()) {
+//            launchHomeScreen()
+//            finish()
+//        }
 
-        tvNext.setOnClickListener(View.OnClickListener { _ ->
-            run {
-                val current = getItem(1)
-                if (current < layout.size) {
-                    viewPager.currentItem = current
-                } else {
-                    launchHomeScreen()
-                }
-            }
-        })
+//        tvNext.setOnClickListener(View.OnClickListener { _ ->
+//            run {
+//                val current = getItem(1)
+//                if (current < layout.size) {
+//                    viewPager.currentItem = current
+//                } else {
+//                    launchHomeScreen()
+//                }
+//            }
+//        })
 
         findViewById<Button>(R.id.btn_getting_started).setOnClickListener {
-            val intent = Intent(this, Screen3::class.java)
+            val intent = Intent(this, SignUpGoogle::class.java)
             startActivity(intent)
         }
 
