@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="6.55dp"
+        android:layout_height="11.15dp"
+        android:src="@drawable/leftarrow"
+        android:fillColor="#373737"
+        tools:layout_editor_absoluteX="29.98dp"
+        tools:layout_editor_absoluteY="42dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="64dp"
+        android:text="Females travelling with similar journey details"
+        android:textColor="#373737"
+        android:textSize="23.46sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23.43dp"
+
+        tools:layout_editor_absoluteY="72.14dp" />
+    <ImageView
+        android:id="@+id/rectanglelight"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rectanglelight"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22.43dp"
+        tools:layout_editor_absoluteY="156.68dp" />
+
+    <TextView
+        android:id="@+id/rectangleldark"
+        android:layout_width="124.78dp"
+        android:layout_height="38dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/rect_small"
+        tools:layout_editor_absoluteX="236.94dp"
+        tools:layout_editor_absoluteY="156.68dp"
+        />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="18dp"
+        android:text="2222222222"
+        android:textColor="#373737"
+        android:textSize="15.87dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="166.68dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="286.93dp"
+        android:layout_height="84dp"
+        android:background="@drawable/rectangle_text"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="352dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="286.93dp"
+        android:layout_height="70.05dp"
+        android:font="16dp"
+        android:text="No females travelling via this train! \nPlease try with another train or “Add your trip”."
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/homefilled"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/requestempty"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/pastjourneysempty"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/profileempty"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/aadhar"
+        android:layout_width="343.18dp"
+        android:layout_height="50.19dp"
+        android:background="@drawable/rectangle_aadhar_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="20dp"
+        android:text="Add your trip"
+        android:textColor="#FFFFFF"
+        android:textSize="16.19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aadhar"
+        app:layout_constraintEnd_toEndOf="@+id/aadhar"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/aadhar"
+        app:layout_constraintTop_toTopOf="@+id/aadhar"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="16.53dp"
+        android:layout_height="16.53dp"
+        android:background="@drawable/i"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="30dp"
+        android:text="By doing so, other female solo travelers can view your trip and request you to travel together."
+        android:textColor="#A7A5A5"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aadhar"
+        app:layout_constraintVertical_bias="0.103"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
