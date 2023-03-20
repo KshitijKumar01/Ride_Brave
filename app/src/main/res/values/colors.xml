@@ -7,4 +7,27 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  dots inactive colors  -->
+
+    <color name="dot_unfilled_1">#804760FF</color>
+    <color name="dot_unfilled_2">#804760FF</color>
+    <color name="dot_unfilled_3">#804760FF</color>
+
+    <!-- dots active colors    -->
+    <color name="dot_filled_1">#4760FF</color>
+    <color name="dot_filled_2">#4760FF</color>
+    <color name="dot_filled_3">#4760FF</color>
+
+    <array name="active">
+        <item>@color/dot_filled_1</item>
+        <item>@color/dot_filled_2</item>
+        <item>@color/dot_filled_3</item>
+    </array>
+
+    <array name="inactive">
+        <item>@color/dot_unfilled_1</item>
+        <item>@color/dot_unfilled_2</item>
+        <item>@color/dot_unfilled_3</item>
+    </array>
 </resources>
