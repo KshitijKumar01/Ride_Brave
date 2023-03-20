@@ -67,8 +67,7 @@
     <TextView
         android:layout_width="286.93dp"
         android:layout_height="70.05dp"
-        android:font="16dp"
-        android:text="No females travelling via this train! \nPlease try with another train or “Add your trip”."
+        android:text="@string/nowomenxmltext"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="1.0"
@@ -152,7 +151,7 @@
     <TextView
         android:layout_width="319dp"
         android:layout_height="30dp"
-        android:text="By doing so, other female solo travelers can view your trip and request you to travel together."
+        android:text="@string/nowomenbelowaddyourtrip"
         android:textColor="#A7A5A5"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"

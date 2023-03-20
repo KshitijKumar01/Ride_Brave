@@ -5,7 +5,7 @@
     android:id="@+id/intro_one"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/teal_700"
+    android:backgroundTint="@color/white"
     tools:context=".Screen1">
 
         <androidx.constraintlayout.widget.Guideline

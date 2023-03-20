@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">RideBrave</string>
     <string name="sign_in">Sign in as guest</string>
+    <string name="nowomenxmltext">No females travelling via this train! \nPlease try with another train or “Add your trip”.</string>
+    <string name="nowomenbelowaddyourtrip">By doing so, other female solo travelers can view your trip and request you to travel together.</string>
 </resources>

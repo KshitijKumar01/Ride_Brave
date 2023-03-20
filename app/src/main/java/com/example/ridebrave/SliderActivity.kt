@@ -8,6 +8,7 @@ import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -23,6 +24,7 @@ class SliderActivity : AppCompatActivity() {
     private lateinit var introPreferences: IntroPreferences
     private lateinit var layout: Array<Int>
     private lateinit var tvNext: ImageView
+
     private lateinit var dots: Array<TextView?>
 
 
@@ -52,6 +54,11 @@ class SliderActivity : AppCompatActivity() {
                 }
             }
         })
+
+        findViewById<Button>(R.id.btn_getting_started).setOnClickListener {
+            val intent = Intent(this, Screen3::class.java)
+            startActivity(intent)
+        }
 
         val viewPagerAdapter = MyViewPagerAdapter(this, layout)
         viewPager.adapter = viewPagerAdapter

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SliderActivity">
 
     <TextView
@@ -66,7 +67,7 @@
         app:layout_constraintGuide_begin="587dp" />
 
     <Button
-        android:id="@+id/getting_started"
+        android:id="@+id/btn_getting_started"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="#4760FF"
