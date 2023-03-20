@@ -67,28 +67,28 @@
                 tools:layout_editor_absoluteX="46.93dp"
                 tools:layout_editor_absoluteY="172.63dp" />
 
-            <ImageView
-                android:id="@+id/aadhar"
-                android:layout_width="343.18dp"
-                android:layout_height="50.19dp"
-                android:background="@drawable/rectangle_aadhar_blue"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="719.3dp" />
+    <ImageView
+        android:id="@+id/aadhar"
+        android:layout_width="343.18dp"
+        android:layout_height="50.19dp"
+        android:background="@drawable/rectangle_aadhar_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="647dp" />
 
-            <TextView
-                android:layout_width="179dp"
-                android:layout_height="20dp"
-                android:text="Validate Aadhar number"
-                android:textColor="#FFFFFF"
-                android:textSize="16.19sp"
-                app:layout_constraintEnd_toEndOf="@+id/aadhar"
-                app:layout_constraintStart_toStartOf="@+id/aadhar"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="734.4dp" />
-
-
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="20dp"
+        android:text="Validate Aadhar number"
+        android:textColor="#FFFFFF"
+        android:textSize="16.19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aadhar"
+        app:layout_constraintEnd_toEndOf="@+id/aadhar"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/aadhar"
+        app:layout_constraintTop_toTopOf="@+id/aadhar"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

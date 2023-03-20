@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="6.55dp"
+        android:layout_height="11.15dp"
+        android:src="@drawable/leftarrow"
+        android:fillColor="#373737"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29.98dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:layout_width="276dp"
+        android:layout_height="32dp"
+        android:text="Enter the PNR number"
+        android:textColor="#373737"
+        android:textSize="23.46sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23.43dp"
+
+        tools:layout_editor_absoluteY="72.14dp" />
+
+    <ImageView
+        android:id="@+id/rectanglelight"
+        android:layout_width="339.29dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rectanglelight"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23.43dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="18dp"
+        android:text="Please enter a valid PNR number"
+        android:textColor="#37373733"
+        android:textSize="13.35sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="16.53dp"
+        android:layout_height="16.53dp"
+        android:background="@drawable/i"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23.43dp"
+        tools:layout_editor_absoluteY="171.86dp" />
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="15dp"
+        android:text="We don’t share anything on your behalf!"
+        android:textColor="#A7A5A5"
+        android:textSize="11sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46.93dp"
+        tools:layout_editor_absoluteY="172.63dp" />
+
+    <ImageView
+        android:id="@+id/aadhar"
+        android:layout_width="343.18dp"
+        android:layout_height="50.19dp"
+        android:background="@drawable/rectangle_aadhar_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="20dp"
+        android:text="Validate PNR number"
+        android:textColor="#FFFFFF"
+        android:textSize="16.19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aadhar"
+        app:layout_constraintEnd_toEndOf="@+id/aadhar"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/aadhar"
+        app:layout_constraintTop_toTopOf="@+id/aadhar"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/homefilled"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/requestempty"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/pastjourneysempty"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="51.77dp"
+        android:background="@drawable/profileempty"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

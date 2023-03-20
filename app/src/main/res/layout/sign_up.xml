@@ -7,18 +7,48 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-            <ImageView
-                android:id="@+id/logo"
-                android:layout_width="92.96dp"
-                android:layout_height="92.96dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:background="@drawable/logo"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="141.02dp"
-                tools:layout_editor_absoluteY="50.67dp" />
+    <ImageView
+    android:id="@+id/logo"
+    android:layout_width="92.96dp"
+    android:layout_height="92.96dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/logo"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="141.02dp"
+    tools:layout_editor_absoluteY="50.67dp" />
+    
+    
 
-            <TextView
+
+
+
+        <ImageView
+            android:id="@+id/googlelog"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            app:layout_constraintBottom_toBottomOf="@+id/rectangleldark"
+            app:layout_constraintTop_toTopOf="@+id/rectangleldark"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="94dp"
+            android:foreground="@drawable/google_icon"
+        />
+
+        <TextView
+            android:id="@+id/rectangleldark"
+            android:layout_width="315dp"
+            android:layout_height="41.73dp"
+            tools:ignore="MissingConstraints"
+            android:background="#4760FF"
+            tools:layout_editor_absoluteX="26.7dp"
+            tools:layout_editor_absoluteY="286.76dp"
+            />
+
+
+
+    <TextView
                 android:layout_width="102dp"
                 android:layout_height="29dp"
                 android:text="RideBrave"
@@ -95,65 +125,44 @@
                 app:layout_constraintVertical_bias="0.045"
                 tools:ignore="MissingConstraints" />
 
-            <TextView
-                android:layout_width="107dp"
-                android:layout_height="21dp"
-                android:text="Phone Number"
-                android:textColor="#373737"
-                android:textSize="15.87dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="31dp"
-                tools:layout_editor_absoluteY="277.78dp" />
-
-            <ImageView
-                android:id="@+id/rectanglelight"
-                android:layout_width="315dp"
-                android:layout_height="38dp"
-                android:background="@drawable/rectanglelight"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="28dp"
-                tools:layout_editor_absoluteY="309dp" />
-
-            <TextView
-                android:layout_width="31dp"
-                android:layout_height="18dp"
-                android:text="+91-"
-                android:textColor="#373737"
-                android:textSize="15.87dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="57.5dp"
-                tools:layout_editor_absoluteY="319dp" />
-
-            <ImageView
-                android:id="@+id/rectangleldark"
-                android:layout_width="315dp"
-                android:layout_height="41.73dp"
-                android:background="@drawable/rectangledark"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="28dp"
-                tools:layout_editor_absoluteY="360.62dp" />
-
-            <TextView
-                android:layout_width="230dp"
-                android:layout_height="18dp"
-                android:text="Already have an account? Sign in now"
-                android:textColor="#373737"
-                android:textSize="13.35dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="76dp"
-                tools:layout_editor_absoluteY="759dp" />
-
-            <TextView
-                android:layout_width="100dp"
-                android:layout_height="16dp"
-                android:text="Sign in as Guest"
-                android:textColor="#373737"
-                android:textSize="12dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="793.04dp" />
 
 
-   </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="18dp"
+        android:text="Sign up using Google"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleldark"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleldark"
+        app:layout_constraintStart_toStartOf="@+id/rectangleldark"
+        app:layout_constraintTop_toTopOf="@+id/rectangleldark" />
+
+
+
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="18dp"
+        android:text="Already have an account? Sign in now"
+        android:textColor="#373737"
+        android:textSize="13.35dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="16dp"
+        android:text="Sign in as Guest"
+        android:textColor="#373737"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="690dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
