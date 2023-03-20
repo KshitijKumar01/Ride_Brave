@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "419951190506",
+    "project_id": "ride-brave",
+    "storage_bucket": "ride-brave.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419951190506:android:a2ae745177a9aeef7a1293",
+        "android_client_info": {
+          "package_name": "com.example.ridebrave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419951190506-gt4gdt7fesufi7ota1bgb64r9e06vlmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridebrave",
+            "certificate_hash": "ca4daf889f5a71c71208549fbd925b35c411a621"
+          }
+        },
+        {
+          "client_id": "419951190506-s368qqq3etq5226fnkt8tv2nkn2p2k6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs8GweMDF-vkEX2Bq6DtlTfs_J2CiJW-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419951190506-16jiiatrl5hqihh60nakas9b4htf7894.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
