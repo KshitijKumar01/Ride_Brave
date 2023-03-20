@@ -39,7 +39,25 @@
                 tools:layout_editor_absoluteY="30.74dp"
                 tools:layout_editor_absoluteX="320.18dp"/>
 
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="12.6dp"
+                android:layout_height="18dp"
+                android:fillcolor="#37373780"
+                android:background="@drawable/location"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="80dp" />
 
+            <TextView
+                android:layout_width="149dp"
+                android:layout_height="29dp"
+                android:text="Gharuan"
+                android:textColor="#37373780"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="81.11dp"
+                tools:layout_editor_absoluteX="43.29dp>
 
 
 
